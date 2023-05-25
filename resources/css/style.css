@@ -1,0 +1,42 @@
+.bg-image{
+    background-image: url('https://www.osservatore.ch/wp-content/uploads/2021/04/netflix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.custom-position{
+    position: relative;
+    top: 55%;
+}
+.costum-border{
+    border-bottom: 2px solid red;
+}
+.custom-height{
+    height: 50rem;
+}
+.custom-overflow{
+    overflow: hidden;
+}
+.sofa {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 253, 253, 0.1)), url('/public/img/party-sofa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-image-custom{
+    background-image: url('https://media.licdn.com/dms/image/C5612AQEJUVBC-lMvcA/article-cover_image-shrink_720_1280/0/1547142876229?e=2147483647&v=beta&t=gHE6cBJSMawrcgxDFNHFZyU9EOjeEs_8W4or7LNqYRY');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.custom-card{
+    border: 2px solid black !important;
+}
+.custom-border{
+    border-top: 2px solid red;
+}
+.custom-hover{
+    transition: 0.5s;
+}
+.custom-hover:hover{
+    transform: scale(1.3);
+}
